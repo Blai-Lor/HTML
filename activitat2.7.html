@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2.7. Formularis</title>
+    <style>
+        form label { display: block;}
+        form button { display: block; width: 100%; max-width: 150px;}
+
+    </style>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="activitat2.7.1.html">
+        <label>Nombre:
+            <input type="text" id="name" name="nombre" placeholder="Nombre" required>
+        </label>
+        <label>Edad: 
+            <input type="number" id="number" name="edad" placeholder="Edad" required>
+        </label>
+        <label>Email: 
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </label>
+        <label>Contraseña: 
+            <input type="password" id="password" name="contraseña" placeholder="Contraseña" required>
+        </label>
+
+        <select name="select" multiple size="9">
+            <optgroup label="Consola Favorita">
+                <option>PS5</option>
+                <option>PS4</option>
+                <option>Xbox Series X</option>
+                <option>Xbox Series S</option>
+                <option>Wii</option>
+            </optgroup>
+            <optgroup label="Consola Portatil">
+                <option>Nintendo Switch 2</option>
+                <option>Nintendo Switch Lite</option>
+                <option>PSP</option>
+                <option>Nintendo 3Ds</option>
+            </optgroup>
+        </select>
+        <label>
+            Castellano:<input type="radio" id="idiomaCastellano" name="idioma" value="castellano" required>
+        </label>
+        <label>
+            Catalan:<input type="radio" id="idiomaCatalan" name="idioma" value="catalan" required>
+        </label>
+        <label>
+            Ingles:<input type="radio" id="idiomaIngles" name="idioma" value="ingles" required>
+        </label>
+        <label>
+            <input type="checkbox" id="suscripcion" name="checkbox">Quiero recibir las ultimas notificaciones y actualizaciones del sitio web.
+        </label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+        <label>
+            <button type="submit" id="submit" name="submit" target="activitat2.7.1.html">Enviar</button>
+        </label>
+    </form>
+</body>
+</html>

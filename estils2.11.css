@@ -1,0 +1,31 @@
+caption, table {
+    text-align: center;
+    border: 1px solid;
+    border-color: darkblue;
+    font-size: 14px;
+}
+thead, tfoot {
+    background-color: #279c90;
+    color: white;
+    text-transform: uppercase;
+}
+#ultima{
+    font-weight: bold;
+}
+tbody {
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: darkblue;
+    color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+    color: darkblue;
+}
+caption:hover {
+    color: darkviolet;
+}
+caption::selection {
+    color: rgb(253, 16, 16);
+}

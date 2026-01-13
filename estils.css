@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(147, 147, 214);
+}
+
+
+h1,h2 {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.colorVerd {
+    color: green;
+}
+
+#unico {
+    border: 2.5px solid rgb(218, 255, 6);
+}
